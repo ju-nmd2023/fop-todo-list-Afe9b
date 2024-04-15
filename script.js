@@ -14,7 +14,17 @@ function addTask() {
     li.appendChild(span);
 
     listContainer.appendChild(li);
-    saveData();
   }
   inputBox.value = "";
 }
+listContainer.addEventListener(
+  "click",
+  function (a) {
+    if (a.target.tagName === "LI") {
+      a.target.classList.toggle("checked");
+    } else if (a.target.tagName === "SPAN") {
+      a.target.parentElement.remove();
+    }
+  },
+  false
+);
