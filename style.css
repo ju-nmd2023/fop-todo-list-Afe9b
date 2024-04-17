@@ -13,21 +13,21 @@
 }
 .todo {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   background: #eb9aff;
   box-shadow: 0 0 800px 100px #dadc99;
   margin: 100px auto;
-  padding: 40px 40px 80px;
+  padding: 10px 40px 80px;
   border-radius: 50px;
 }
-.todo h2 {
-  color: #70086f;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 40px;
-  margin-bottom: 20px;
+
+.todo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
+
 .row {
   display: flex;
   align-items: center;
