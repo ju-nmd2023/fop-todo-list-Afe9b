@@ -54,6 +54,11 @@ button {
   font-size: 16px;
   cursor: pointer;
   border-radius: 40px;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #ab174e;
+  padding: 22px 18px;
 }
 ul li {
   list-style: none;
